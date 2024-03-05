@@ -10,7 +10,7 @@
 ## 公有配置
 ---
 
-**BASE_DIR
+**BASE_DIR**
 - 用于绑定当前项目的绝对路劲（动态计算出来的），所有文件夹都可以依赖此路劲
 **DEBUG**
 - 用于配置Django项目的启动模式，取值：
@@ -30,7 +30,7 @@
 - 用于注册中间件
 **TEMPLATES**
 - 用于指定模板的配置信息
-**DATABASES
+**DATABASES**
 - 用于指定数据库的配置信息
 **LANGUAGE_CODE**
 - 用于指定语言配置
@@ -60,11 +60,11 @@ from django.conf import settings
 	- protocol: //hostname\[:port\]/path\[?query\]\[\#fragment\]
 	- http://tts.tmooc.cn/video/showVideo?menuld=657421&version=AID999#subject
 
-**protocol(协议) http://tts.tmooc.cn
+**protocol(协议)** http://tts.tmooc.cn
 - http通过HTTP访问该资源。格式 http://
 - https 通过安全的HTTPS访问该资源。格式https://
 - file 资源是本地计算机上的文件。格式: file:///
-**hostname（主机名）http://tts.tmooc.cn
+**hostname（主机名**）http://tts.tmooc.cn
 - 是指存放资源的服务器的域名系统（DNS）主机名、域名或IP地址
 **port(端口号) http://tts.tmooc.cn:80
 - 整数，可选，省略时使用方案默认端口
