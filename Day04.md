@@ -12,6 +12,7 @@
 | filter()  | 查询符合条件的多条记录           |
 | exclude() | 查询符合条件之外的全部记录         |
 | ....      |                       |
+
 **all()方法**
 - 用法：MyModel.objects.all()
 - 作用：查询MyModel实体中的所有的数据
